@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding: 4vh;
+    min-width: 400px;
+    min-height: 500px;
+}
+
+#input-el {
+    width: 100%;
+    height: 8vh;
+}
+
+.setrow {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 4vw;
+}
+
+.setrow button {
+    width: 40%;
+    height: 12vh;
+    background-color: green;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    /* color: green; */
+}
+
+ul a {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: green;
+}
